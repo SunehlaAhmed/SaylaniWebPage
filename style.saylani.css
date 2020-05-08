@@ -1,0 +1,203 @@
+.header {
+    display: flex;
+    height: 40px;
+    background-color: blue;
+    justify-content: space-around;
+}
+.header-box-2 {
+    color: white;
+}
+.header-box-1 {
+    color: white;
+    align-self: auto;
+}
+.navbar {
+    width: 120%;
+    position: fixed;
+    top: 0px;
+    height: 50px;
+    margin: 0px;
+}
+li {
+    display: inline;
+    width: fit-content;
+}
+.ul {
+    background-color: cornsilk;
+    font-size: 10px;
+    padding-top: -30px;
+    padding-bottom: 20px;
+
+}
+#logo {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.dropbtn {
+    border-radius: 25px;
+    margin-left: 50px;
+    width: 100px;
+    height: 35px;
+    background-color: cornsilk;
+    color: black;
+    padding: 10px 5px 10px 5px;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    font-size: 15px;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    z-index: 1;
+  }
+  .dropdown-content a:hover {background-color: rgb(12, 70, 231);}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: rgb(12, 70, 231);}
+
+  h1 {
+      text-align: center;
+      font-family: cursive;
+  }
+  .dash {text-align: center;
+
+  }
+  .description {
+      font-weight: 400;
+      padding-right: 70px;
+      padding-left: 70px;
+      line-height: 30px;
+      text-indent: 20px;
+  }
+   
+  .main {
+      display: flex;
+      background-color: blue;
+      justify-content: space-evenly;
+  }
+  .one,.two,.three,.four {
+      width: 300px;
+      border: 30px solid blue;
+      font-family: sans-serif;
+      font-size: medium;
+      font-weight: bold;
+      color: white;
+      line-height: 20px;
+  }.amount {
+      font-size: 40px;
+  }
+  .services {
+      display: flex;
+      justify-content: space-evenly;
+      
+      
+}
+ .ser {
+    
+    box-shadow: 5px 5px 5px 5px lightgrey;
+    border: 5px solid white;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: blue;
+  }
+  .mission {
+      margin: 40px;
+      font-size: larger;
+      font-size: 30px;
+      font-family: sans-serif;
+      color: blue;
+ }
+
+ .uprojects {
+      display: flex;
+      justify-content: space-around;
+      margin: 50px 50px;
+ }
+ .up {
+    box-shadow: 5px 5px 5px 5px lightgrey;
+    border: 5px solid white;
+    width: 250px;
+    height: 90px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: blue;
+
+ }
+ .hep {
+     display: inline;
+     padding: 20px;
+     font-size: 17px;
+ }
+ .image-gallery {
+     display: flex;
+     justify-content: center;
+     margin: 50px;
+
+     
+ }
+ .img-gal:hover{
+     border: 5px solid lavenderblush;
+     opacity: initial;
+ }
+.contact {
+    display: flex;
+    background-color: darkslategrey;
+    justify-content: flex-start;
+}
+.box-1 {
+    background-color: darkslategrey;
+    width: 380px;
+    margin: 20px;
+    padding-top: 30px;
+    color: white;
+}
+.box-2 {
+    background-color: darkslategrey;
+    /* border: 2px solid blue; */
+    width: 480px;
+    font-size: medium;
+    color: white;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.box-3 {
+    background-color: darkslategrey
+    /* border: 2px solid blue; */
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.footer {
+    display: flex;
+    color: white;
+
+}
+/* .footer {
+    background-color: blue;
+    margin: 70px;
+    color: white;
+    font-size: small;
+} */
